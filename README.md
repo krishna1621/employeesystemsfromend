@@ -79,13 +79,13 @@ git clone https://github.com/codedthemes/materially-free-react-admin-template.gi
 2. Install packages
 
 ```
-yarn
+npm install
 ```
 
 3. Run project
 
 ```
-yarn start
+npm start
 ```
 
 ## Documentation
