@@ -1,5 +1,5 @@
 # Use Node.js 18.x.x Alpine base image
-FROM node:18-alpine
+FROM node:16-alpine
 
 # Set working directory inside the container
 WORKDIR /employeesystemsfromend
