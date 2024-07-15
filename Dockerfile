@@ -12,7 +12,7 @@ COPY package.json ./
 COPY package-lock.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm install --legacy-peer-deps 
 
 # Copy environment variables
 COPY .env ./
